@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn It</title>
+    <style>
+        @font-face {
+            font-family: "OCR A Extended";
+            src: url("assets/OCRAEXT.ttf");
+        }
+    </style>
+
+    <script src="phaser.js"></script>
+    <!-- falta o jogar-->
+    <script src="GlobalVariables.js"></script>
+    <script src="GlobalFunctions.js"></script>
+
+    <script src="Preloader.js"></script>
+
+    <script src="menus/OpcoesMenu.js"></script>
+    <script src="menus/AjudaMenu.js"></script>
+    <script src="menus/RankingMenu.js"></script>
+    <script src="menus/CreditosMenu.js"></script>
+    <script src="menus/PreJogar.js"></script>
+    <script src="menus/MainMenu.js"></script>
+
+    <script src="levels/GameOverScene.js"></script>
+    <script src="levels/Level1.js"></script>
+    <script src="levels/Level2.js"></script>
+    <script src="levels/Level3.js"></script>
+    <script src="levels/Level4.js"></script>
+    <script src="JogarFacil.js"></script>
+
+    <script src="Jogar.js"></script>
+
+</head>
+
+
+
+<body>
+    <script>
+        var config = {
+            type: Phaser.AUTO,
+            width: 1280,
+            height: 634,
+            physics: {
+                default: 'arcade',
+                arcade: {
+                    gravity: { y: 200 },
+                    debug: false
+                }
+            },
+            scene: [Preloader, MainMenu, OpcoesMenu, AjudaMenu, RankingMenu, CreditosMenu, PreJogar, Jogar, JogarFacil, Level1, Level2, Level3 , Level4,GameOverScene] //Sair e jogar faltam
+        };
+
+        var game = new Phaser.Game(config);
+    </script>
+</body>
+</html>

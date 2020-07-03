@@ -1,0 +1,354 @@
+[
+  {
+    "number" : "0",
+    "question" : "HTML é linguagem de: ",
+    "answers" : [
+      {
+        "answer" : "Criação",
+        "correct" : "f"
+      },
+      {
+        "answer" : "Programação",
+        "correct" : "f"
+      },
+      {
+        "answer" : "Exclusão",
+        "correct" : "t"
+      },
+      {
+        "answer" : "Formatação",
+        "correct" : "f"
+      }
+    ]
+  },
+  {
+    "number" : "1",
+    "question" : "Qual destes browsers\nsuporta HTML5 na ultima versão: ",
+    "answers" : [
+      {
+        "answer" : "Mozilla\nFirefox",
+        "correct" : "f"
+      },
+      {
+        "answer" : "Opera",
+        "correct" : "f"
+      },
+      {
+        "answer" : "Ambos",
+        "correct" : "t"
+      },
+      {
+        "answer" : "Nenhum",
+        "correct" : "t"
+      }
+    ]
+  },
+  {
+    "number" : "3",
+    "question" : "Qual destes atributos \npermite arrastar um elemento? ",
+    "answers" : [
+      {
+        "answer" : "drag",
+        "correct" : "f"
+      },
+      {
+        "answer" : "draggable",
+        "correct" : "f"
+      },
+      {
+        "answer" : "ondrag",
+        "correct" : "f"
+      },
+      {
+        "answer" : "ondragenter",
+        "correct" : "t"
+      }
+    ]
+  },
+  {
+    "number" : "4",
+    "question" : "Qual destes não cria um loop em javascript? ",
+    "answers" : [
+      {
+        "answer" : "for(...)\n{}",
+        "correct" : "f"
+      },
+      {
+        "answer" : "do\n{}while(...)",
+        "correct" : "f"
+      },
+      {
+        "answer" : "while(...)\n{}",
+        "correct" : "f"
+      },
+      {
+        "answer" : "repeat(...)\n{}",
+        "correct" : "t"
+      }
+    ]
+  },
+  {
+    "number" : "5",
+    "question" : "Qual o valor de a? \nvar a = 'cat'.length*2 ",
+    "answers" : [
+      {
+        "answer" : "3",
+        "correct" : "f"
+      },
+      {
+        "answer" : "6",
+        "correct" : "f"
+      },
+      {
+        "answer" : "0",
+        "correct" : "f"
+      },
+      {
+        "answer" : "1",
+        "correct" : "t"
+      }
+    ]
+  },
+  {
+    "number" : "6",
+    "question" : "Como se acha o valor mais alto \nentre x e y? ",
+    "answers" : [
+      {
+        "answer" : "Math.max(x,y)",
+        "correct" : "f"
+      },
+      {
+        "answer" : "max(x,y)",
+        "correct" : "f"
+      },
+      {
+        "answer" : "ceil(x,y)",
+        "correct" : "f"
+      },
+      {
+        "answer" : "Math.ceil(x,y)",
+        "correct" : "t"
+      }
+    ]
+  },
+  {
+    "number" : "7",
+    "question" : "Qual das opções define uma\nsecção em HTML? ",
+    "answers" : [
+      {
+        "answer" : "<p>",
+        "correct" : "f"
+      },
+      {
+        "answer" : "<body>",
+        "correct" : "f"
+      },
+      {
+        "answer" : "<label>",
+        "correct" : "f"
+      },
+      {
+        "answer" : "<div>",
+        "correct" : "t"
+      }
+    ]
+  },
+  {
+    "number" : "8",
+    "question" : "O CMYK é",
+    "answers" : [
+      {
+        "answer" : "Espaço de \ncor aditivo",
+        "correct" : "f"
+      },
+      {
+        "answer" : "Modelo de \ncor subtractivo",
+        "correct" : "t"
+      },
+      {
+        "answer" : "Espaço de \ncor subtractivo",
+        "correct" : "f"
+      },
+      {
+        "answer" : "Modelo de \ncor aditivo",
+        "correct" : "f"
+      }
+    ]
+  },
+  {
+    "number" : "9",
+    "question" : "Qual a bit rate típica de uma \nmúsica com qualidade de CD \ncomprimida através do codec FLAC?",
+    "answers" : [
+      {
+        "answer" : "128kbps",
+        "correct" : "f"
+      },
+      {
+        "answer" : "320kbps",
+        "correct" : "t"
+      },
+      {
+        "answer" : "705kbps",
+        "correct" : "f"
+      },
+      {
+        "answer" : "256kbps",
+        "correct" : "f"
+      }
+    ]
+  },
+  {
+    "number" : "10",
+    "question" : "Na família MPEG, que frames exploram a redundância\n espacial?",
+    "answers" : [
+      {
+        "answer" : "I, P e B",
+        "correct" : "f"
+      },
+      {
+        "answer" : "só P",
+        "correct" : "f"
+      },
+      {
+        "answer" : "I e P",
+        "correct" : "f"
+      },
+      {
+        "answer" : "só I",
+        "correct" : "t"
+      }
+    ]
+  },
+  {
+    "number" : "11",
+    "question" : "No codec MPEG-4 AVC, qual o número máximo de frames\n de referência para compensação de movimento?",
+    "answers" : [
+      {
+        "answer" : "1",
+        "correct" : "f"
+      },
+      {
+        "answer" : "2",
+        "correct" : "f"
+      },
+      {
+        "answer" : "4",
+        "correct" : "f"
+      },
+      {
+        "answer" : "16",
+        "correct" : "t"
+      }
+    ]
+  },
+  {
+    "number" : "12",
+    "question" : "JPEG está para BMP assim como:",
+    "answers" : [
+      {
+        "answer" : "FLAC está para mp3",
+        "correct" : "f"
+      },
+      {
+        "answer" : "mp3 está para FLAC",
+        "correct" : "f"
+      },
+      {
+        "answer" : "mp3 está para PCM",
+        "correct" : "t"
+      },
+      {
+        "answer" : "PCM está para mp3",
+        "correct" : "f"
+      }
+    ]
+  },
+  {
+    "number" : "13",
+    "question" : "A função Math.ceil(3.5) dá return de: ",
+    "answers" : [
+      {
+        "answer" : "MathError",
+        "correct" : "f"
+      },
+      {
+        "answer" : "4",
+        "correct" : "t"
+      },
+      {
+        "answer" : "0",
+        "correct" : "f"
+      },
+      {
+        "answer" : "3",
+        "correct" : "f"
+      }
+    ]
+  },
+  {
+    "number" : "14",
+    "question" : "Qual o valor de a? \n var a = 3; var b = 2; var c = a; var a=b=c=1; ",
+    "answers" : [
+      {
+        "answer" : "3",
+        "correct" : "f"
+      },
+      {
+        "answer" : "true",
+        "correct" : "f"
+      },
+      {
+        "answer" : "1",
+        "correct" : "t"
+      },
+      {
+        "answer" : "false",
+        "correct" : "f"
+      }
+    ]
+  },
+  {
+    "number" : "15",
+    "question" : "if (a) { x = b; } else { x = c; } é equivalente a: ",
+    "answers" : [
+      {
+        "answer" : "x = a : b ? c;",
+        "correct" : "f"
+      },
+      {
+        "answer" : "x = a ? b : c",
+        "correct" : "t"
+      },
+      {
+        "answer" : "x = a ? b , c;",
+        "correct" : "f"
+      },
+      {
+        "answer" : "Nenhuma das anteriores",
+        "correct" : "f"
+      }
+    ]
+  },
+  {
+    "number" : "16",
+    "question" : "Qual a função a usar para encontrar\n o maior valor entre x e y?",
+    "answers" : [
+      {
+        "answer" : "Math.max(x, y)",
+        "correct" : "t"
+      },
+      {
+        "answer" : "ceil(x, y)",
+        "correct" : "f"
+      },
+      {
+        "answer" : "max(x, y)",
+        "correct" : "f"
+      },
+      {
+        "answer" : "Math.ceil(x, y)",
+        "correct" : "f"
+      }
+    ]
+  }
+]
